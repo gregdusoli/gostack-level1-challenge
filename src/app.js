@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const { v4: uuid, isUuid } = require('uuid');
+const { uuid, isUuid } = require('uuidv4');
 
 const repositories = [];
 
